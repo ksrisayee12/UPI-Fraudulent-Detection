@@ -1,0 +1,15 @@
+feature,importance
+failed_attempts_24h,44.46745530911814
+device_change_flag,13.275524230203876
+is_new_beneficiary,11.177710782544358
+location_velocity_flag,6.69185140860077
+fraud_history_flag,6.039462634039157
+location_risk_level,5.04116773135974
+transaction_amount,3.1624446277475715
+amount_zscore,2.942232721951542
+hour_of_day,2.7963177119935057
+velocity_1h,2.251156448514364
+is_night,1.6681870490644777
+day_of_week,0.16424516618324553
+receiver_bank_code,0.16342903063443162
+sender_bank_code,0.15881514804481492

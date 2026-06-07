@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+catboost
+fastapi
+uvicorn[standard]
+httpx
+streamlit
+redis        
+python-dotenv
+pytest
+onnxruntime  
+geopy        

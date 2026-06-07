@@ -1,0 +1,40 @@
+{
+  "model_file": "models\\fraud_modelN.cbm",
+  "features": [
+    "transaction_amount",
+    "amount_zscore",
+    "hour_of_day",
+    "is_night",
+    "day_of_week",
+    "device_change_flag",
+    "location_risk_level",
+    "location_velocity_flag",
+    "sender_bank_code",
+    "receiver_bank_code",
+    "velocity_1h",
+    "failed_attempts_24h",
+    "fraud_history_flag",
+    "is_new_beneficiary"
+  ],
+  "fraud_rate": 0.0308664,
+  "class_weights": [
+    1.0,
+    31.397688100977117
+  ],
+  "thresholds": {
+    "max_f1": 0.8568373329435188,
+    "block": 0.9993019641283508,
+    "review": 0.7689726284808973,
+    "monitor": 0.4992113688696316
+  },
+  "AUC": 0.7965124412809278,
+  "PR_AUC": 0.25804220439531694,
+  "confusion_matrix": {
+    "tn": 1424848,
+    "fp": 28796,
+    "fn": 31963,
+    "tp": 14393
+  },
+  "n_train": 3500000,
+  "n_test": 1500000
+}

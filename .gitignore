@@ -1,0 +1,10 @@
+catboost_info
+_pycache_
+__pycache__/app.cpython-313.pyc
+data/synthetic_training_5M.csv
+data/synthetic_training_10000.csv
+data/synthetic_training_data_final.csv
+__pycache__/app.cpython-313.pyc
+synthetic_training_realistic.csv
+simulation_dataset_1M.csv
+Synthetic_final.py
